@@ -27,7 +27,7 @@ I successfully implemented the video calling feature.I also implemented:
 
 git clone
 
-cd
+cd 25_3fps
 
 docker-compose up
 
