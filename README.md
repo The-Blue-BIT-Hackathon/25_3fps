@@ -39,7 +39,7 @@ docker-compose up
 
 git clone
 
-cd
+cd 25_3fps/Deployments/K8s
 
 kubectl apply -f argocd.yaml
 
@@ -51,7 +51,7 @@ kubectl apply -f argocd.yaml
 
 git clone
 
-cd
+cd 25_3fps/Deployments/IAC/AWS
 
 terraform apply
 
@@ -63,7 +63,7 @@ terraform apply
 
 git clone
 
-cd
+cd 25_3fps/Deployments/IAC/CIVO
 
 terraform apply
 
