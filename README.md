@@ -12,7 +12,7 @@
 
 ## What is the end-result ??
 
-I successfully implemented the video calling feature.I also implemented:
+We successfully implemented the video calling feature.I also implemented:
 
 1. Adding own name to profile with which you join the meeting
 2. Update whenever somebody joins or leaves the meeting
