@@ -1,0 +1,137 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden; 
+ overflow-x: hidden;
+}
+
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.nav p{
+  text-align: left;
+  font-size: x-large;
+  margin-top: 20px;
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.nav img{
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vmax;
+  text-align: left;
+  width: 100vw;
+}
+
+.contain1{
+  width: fit-content;
+}
+.contain1 p{
+  font-size: xxx-large;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contain1 h5{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+  font-size: medium;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input1{
+  margin: 10px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+#btn1{
+  width: 480px;
+  height: 40px;
+  font-size: medium;
+}
+
+#btn2{
+  width: 130px;
+  height: 45px;
+  background-color: aquamarine;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#btn3{
+  width: 235px;
+  height: 40px;
+  font-size: medium;
+}
+
+#btn4{
+  width: 235px;
+  height: 40px;
+  font-size: medium;
+}
+
+#btn5{
+  width: 130px;
+  height: 45px;
+  background-color: aquamarine;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.input2{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+} 
+
+.contain2 img{
+  width: 700px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    text-align: left;
+    width: 100vw;
+  }
+  .contain2 img{
+    width: 600px;
+  }
+}

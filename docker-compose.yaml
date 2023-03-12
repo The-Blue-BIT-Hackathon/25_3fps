@@ -1,0 +1,22 @@
+version: '3'
+
+networks:
+  lets-meet:
+services:
+  backend:
+    image: docker.io/maheshkasbe/backend:v0.0.4
+    container_name: backend
+    ports:
+      - "3001:3001"
+    networks:
+      - lets-meet
+
+  frontend:
+    depends_on:
+      - backend
+    image: docker.io/maheshkasbe/frontend:v0.0.4
+    container_name: frontend
+    ports:
+      - "80:3000"
+    networks:
+      - lets-meet

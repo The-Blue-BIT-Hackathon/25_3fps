@@ -1,0 +1,22 @@
+version: 2.1
+#orbs:
+#  slack: circleci/slack@4.10.1
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:current
+    resource_class: medium
+    steps:
+      - checkout
+      - run:
+          name: Unit-Testing backend
+          command: |
+            cd src/backend
+            docker build --target test -t xyz .
+            docker run --rm xyz
+      - run:
+          name: Unit-Testing frontend
+          command: |
+            cd src/frontend
+            docker build --target test -t xyz .
+            docker run --rm xyz

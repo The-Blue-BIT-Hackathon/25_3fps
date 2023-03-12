@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App> should render component 1`] = `
+<div>
+  <div
+    className="home"
+  >
+    <div
+      className="nav"
+    >
+      <p>
+        MeetEase
+      </p>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="contain1"
+      >
+        <p>
+          Meet, chat, call, and 
+          <br />
+           collaborate in just one place
+        </p>
+        <h5>
+          Instantly start a video chat for two people with the touch of a button
+        </h5>
+        <div
+          className="inputs"
+        >
+          <div
+            className="input1"
+          >
+             
+            <input
+              id="btn1"
+              onChange={[Function]}
+              placeholder="Enter Name"
+            />
+            <button
+              id="btn2"
+              onClick={[Function]}
+            >
+              New Meeting 
+            </button>
+             
+          </div>
+          <div
+            className="input2"
+          >
+            <input
+              id="btn3"
+              onChange={[Function]}
+              placeholder="Enter Meeting Code"
+            />
+            <input
+              id="btn4"
+              onChange={[Function]}
+              placeholder="Enter Name"
+            />
+            <button
+              id="btn5"
+              onClick={[Function]}
+            >
+               Join Meeting 
+            </button>
+             
+          </div>
+        </div>
+      </div>
+      <div
+        className="contain2"
+      >
+        <img
+          alt="/"
+          src="main-logo.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

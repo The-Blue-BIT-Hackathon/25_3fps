@@ -1,0 +1,186 @@
+.videoplayer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    height: max-content;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    color: white;
+    background-color: grey;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.next-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.next-header .btns1{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.btns2{
+    margin: 10px;
+    align-items: baseline;
+}
+
+.btns1 button{
+    width: 190px;
+    height: 30px;
+    margin: 5px;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.btns2 button{
+    width: 120px;
+    height: 30px;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: red;
+    font-size: medium;
+}
+
+.broadcast{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    height: 100vmin;
+}
+
+.meet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vmin;
+    width: 75%;
+    background-color: 	#696969;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.chat{
+    width: 25%;
+    height: 100vmin;
+    background-color: white;
+}
+
+.meet video{
+    width: 400px;
+    height: 300px;
+    border: 1px solid yellow;
+    margin: 10px;
+    background-color: black;
+}
+
+.participants{
+    display: flex;
+    height: fit-content;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-evenly;
+}
+
+.participants button{
+    margin-left: 130px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-content{
+    height: 0%;
+    margin-left: 5px;
+    width: 100%;
+}
+
+.conversation{
+    text-align: center;
+    font-size: medium;
+}
+
+.buttons input{
+    text-align: left;
+    height: 40px;
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    font-weight: 900;
+    position: relative;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.buttons button{
+    width: 50px;
+}
+
+#other{
+    height: 55px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    text-align: left;
+    font-size: medium;
+    margin: 3px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#other p {
+    margin: 1px;
+}
+
+#you p{
+    margin: 1px;
+}
+
+
+#you{
+    height: 55px;
+    justify-content: right;
+    border: 1px solid lightgray;
+    background-color: lightseagreen;
+    text-align: right;
+    font-size: medium;
+    margin: 3px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
